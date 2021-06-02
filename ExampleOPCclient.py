@@ -1,4 +1,4 @@
- #OMS Minipilot OPC Client
+ #ExampleOPC Client
  #Connect to UAGateway on remote computer
  #Get data from OPC-DA
 #based on https://github.com/FreeOpcUa/python-opcua/blob/master/examples/client-minimal.py
