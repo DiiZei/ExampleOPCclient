@@ -77,15 +77,15 @@ def data_read():
             print("Children of root are: ", root.get_children())
                  
             #get data from process according to predetermined list
-            RM_Weight_path = "ns=5;s=OMS_PLC1!WIT_232.Real_Out"
-            BM_Weight_path = "ns=5;s=OMS_PLC1!WIT_251.Real_Out"
-            Silo_Weight_path = "ns=5;s=OMS_PLC1!WIT_221.Real_Out"
-            RM_Power_path = "ns=5;s=OMS_PLC1!MT_232_HMI.Teho_R"
-            BM_Power_path = "ns=5;s=OMS_PLC1!MT_251_HMI.Teho_R"
-            Screen_Power_path = "ns=5;s=OMS_PLC1!MT_232_HMI.Teho_R"
-            RM_FeedRate_path = "ns=5;s=OMS_PLC1!FIT_222.Real_Out"
-            RM_WaterFeed_path = "ns=5;s=OMS_PLC1!FIT_232.Real_Out"
-            BM_WaterFeed_path = "ns=5;s=OMS_PLC1!FIT_251.Real_Out"
+            RM_Weight_path = "ns=x;s="tag path"
+            BM_Weight_path = "ns=x;s="tag path"
+            Silo_Weight_path = "ns=x;s="tag path"
+            RM_Power_path = "ns=x;s="tag path"
+            BM_Power_path = "ns=x;s="tag path"
+            Screen_Power_path = "ns=x;s="tag path"
+            RM_FeedRate_path = "ns=x;s="tag path"
+            RM_WaterFeed_path = "ns=x;s="tag path"
+            BM_WaterFeed_path = "ns=x;s="tag path"
 
             #Additional information on measurements
             WeightUnit = "kg"
